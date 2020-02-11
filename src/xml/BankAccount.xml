@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Ba.css"?>
+    <!DOCTYPE BankAccount SYSTEM "BankAccount.dtd">
+
+    <BankAccount>
+        <account>
+            <customer_name>Allan D.</customer_name>
+            <account_number>2000020</account_number>
+            <account_type>Savings</account_type>
+            <balance>4000</balance>
+        </account>
+        <account>
+            <customer_name>Allan A.</customer_name>
+            <account_number>2000021</account_number>
+            <account_type>Savings</account_type>
+            <balance>230</balance>
+        </account>
+        <account>
+            <customer_name>Armanda C.</customer_name>
+            <account_number>2000022</account_number>
+            <account_type>Savings</account_type>
+            <balance>3000</balance>
+        </account>
+        <account>
+            <customer_name>Audrey C.</customer_name>
+            <account_number>2000023</account_number>
+            <account_type>Savings</account_type>
+            <balance>9000</balance>
+        </account>
+        <account>
+            <customer_name>Ali K.</customer_name>
+            <account_number>2000024</account_number>
+            <account_type>Savings</account_type>
+            <balance>3000</balance>
+        </account>
+        <account>
+            <customer_name>Amila F.</customer_name>
+            <account_number>2000025</account_number>
+            <account_type>Savings</account_type>
+            <balance>30</balance>
+        </account>
+        <account>
+            <customer_name>Betty F.</customer_name>
+            <account_number>2000026</account_number>
+            <account_type>Savings</account_type>
+            <balance>3450</balance>
+        </account>
+        <account>
+            <customer_name>Bobby V.</customer_name>
+            <account_number>2000027</account_number>
+            <account_type>Savings</account_type>
+            <balance>1065</balance>
+        </account>
+        <account>
+            <customer_name>Bill K.</customer_name>
+            <account_number>2000028</account_number>
+            <account_type>Savings</account_type>
+            <balance>6050</balance>
+        </account>
+        <account>
+            <customer_name>Beth Z.</customer_name>
+            <account_number>2000029</account_number>
+            <account_type>Savings</account_type>
+            <balance>50</balance>
+        </account>
+    </BankAccount>

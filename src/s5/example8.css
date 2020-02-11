@@ -1,0 +1,30 @@
+university {
+    padding:20px;
+    display: block;
+    
+}
+semester{
+    border : 1px thick blue;
+    
+}
+name{
+    padding-top:10px;
+    color: red;
+    font-weight:bold;
+    font-size:20px;
+     margin-left:50px;
+    
+}
+address,telephone,age{
+    color: blue;
+    font-size:16px;
+    margin-left:50px;
+    display: block;
+}
+
+epc,java{
+    color: brown;
+    font-size:20px;
+    margin-left:100px;
+    display: block;
+}

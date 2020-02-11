@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 12, 2020, 12:00:43 AM
+    Author     : quang
+*/
+uni_name{display: block; color: black; font-size: 35px; font-weight: 700; text-align: center;}
+number{display: block;}
+student{display: inline-block;border: 2px solid black;}
+std_name{display: block;}
+grade{display: block;}
+

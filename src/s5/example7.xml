@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="example7.css"?>
+<ns1:example  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+              xmlns:ns1='http://www.abc.com'
+              xsi:schemaLocation='http://www.abc.com example7_restriction.xsd'>
+    <ns1:age>20</ns1:age>
+    <ns1:car>Audi</ns1:car>
+    <ns1:letter>e</ns1:letter>
+    <ns1:initials>ABC</ns1:initials>
+    <ns1:initials2>exc</ns1:initials2>
+    <ns1:choice>z</ns1:choice>
+    <ns1:prodid>35121</ns1:prodid>
+    <ns1:letter>abcdddd</ns1:letter>
+    <ns1:letter2>aA</ns1:letter2>
+    <ns1:gender>male</ns1:gender>
+    <ns1:password1>abc12345</ns1:password1>
+    <ns1:password2>bbbbbbbb</ns1:password2>
+    <ns1:password3>ccaaa</ns1:password3>
+
+</ns1:example>

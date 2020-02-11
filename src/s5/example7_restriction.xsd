@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.abc.com"
+xmlns="http://www.abc.com"
+elementFormDefault="qualified">
+
+    <xs:element name="example">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="age">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                            <xs:minInclusive value="0"/>
+                            <xs:maxInclusive value="120"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="car">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="Audi"/>
+                            <xs:enumeration value="Golf"/>
+                            <xs:enumeration value="BMW"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="letter">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[a-z]"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="initials">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[A-Z][A-Z][A-Z]"/> <!-- only 3 characters -->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="initials2">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z]"/><!-- only 3 characters -->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="choice">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[xyz]"/> <!-- x or y or z -->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="prodid">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                            <xs:pattern value="[0-9][0-9][0-9][0-9][0-9]"/> <!-- 5 digits -->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="letter">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="([a-z])*"/> <!-- 0 or more occurrences a to z -->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="letter2">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="([a-z][A-Z])+"/> <!-- one or more a pari -->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+<!--- The only acceptable value is male OR female: -->
+                <xs:element name="gender">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="male|female"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+
+<!-- There must be exactly eight characters in a row
+and those characters must be lowercase or uppercase letters
+from a to z, or a number from 0 to 9:
+-->
+                <xs:element name="password1">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[a-zA-Z0-9]{8}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+<!-- This example defines an element called "password" with
+a restriction. The value must be exactly eight characters: -->
+                <xs:element name="password2">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:length value="8"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+<!-- This example defines another element called "password"
+with a restriction. The value must be minimum five characters
+and maximum eight characters:
+-->
+                <xs:element name="password3">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="5"/>
+                            <xs:maxLength value="8"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

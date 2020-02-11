@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="example8.css"?>
+
+<ns1:university  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns:ns1='http://www.abc.com'
+   xsi:schemaLocation='http://www.abc.com example8.xsd'>
+ 
+    <ns1:semester>
+              
+        <ns1:name>Nguyen Thi Hoa</ns1:name>
+        <ns1:address>ha noi</ns1:address>
+        <ns1:telephone>0984903859</ns1:telephone>
+        <ns1:age>20</ns1:age>
+        <ns1:subjects>
+            <ns1:epc>9</ns1:epc>
+            <ns1:java>10</ns1:java>
+        </ns1:subjects>
+    </ns1:semester>
+
+    <ns1:semester>
+        <ns1:name>Nguyen Thi Hoa</ns1:name>
+        <ns1:address>ha noi</ns1:address>
+        <ns1:telephone>0984903859</ns1:telephone>
+        <ns1:age>20</ns1:age>
+        <ns1:subjects>
+            <ns1:epc>9</ns1:epc>
+            <ns1:java>10</ns1:java>
+        </ns1:subjects>
+    </ns1:semester>
+           
+</ns1:university>

@@ -1,0 +1,32 @@
+ example {
+    display: block;
+    margin-left:20px;
+    color: green;
+    font-size: 30px;
+}
+age{
+    color: red;
+    font-size:20px;
+    margin-left:50px;
+    display: block;
+    background-color: yellow;
+}
+car{
+    color: blue;
+    font-size:20px;
+    margin-left:50px;
+    display: block;
+}
+prodid{
+    color: green;
+    font-size:20px;
+    margin-left:50px;
+    display: block;
+
+}
+letter{
+    color: purple;
+    font-size:20px;
+    margin-left:50px;
+    display: block;
+}

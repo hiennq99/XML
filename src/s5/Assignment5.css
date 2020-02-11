@@ -1,0 +1,15 @@
+    * { font-family: verdana; font-size: 13px; color: white;margin-left:50px;}
+
+    uni_name { display: block; border-style: outset; border-width: medium; background-color: black; font-size: 17px; text-align: center}
+
+    address { display: block; border-style: outset; border-width: thin; background-color: yellow; font-size: 25px; text-align: center;color:black;}
+
+    number { display: block; background-color: black; font-size: 14px}
+
+    std_name { display: block; background-color: #999999}
+
+    grade { display: block; padding-left: 150px}
+
+    subject { color: black; width: 550px}
+
+    mark { color: black; width: 150px}

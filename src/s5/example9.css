@@ -1,0 +1,26 @@
+PARTS{
+    font-family: tahoma;
+    margin-top: 10px; 
+}
+TITLE{
+    text-align: center;
+    font-size:20px;
+    color: blue;
+    display:block;
+}
+PART{   
+     display:block;
+}
+ITEM{
+    margin-left:50px;
+    margin-top:10px;
+    font-size:16px;
+    color: red;
+    display:block;
+    font-weight:bold;
+}
+MANUFACTURER, MODEL, COST{
+    margin-left:110px;
+    font-style:italic;
+    display:block;
+}
